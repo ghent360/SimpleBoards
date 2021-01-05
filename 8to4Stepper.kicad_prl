@@ -50,20 +50,20 @@
       22,
       23,
       24,
+      25,
+      26,
       27,
       28,
       29,
       30,
       31,
-      32,
-      33,
       37,
       38
     ],
-    "visible_layers": "7fdffff_80000001"
+    "visible_layers": "000ffff_80000001"
   },
   "meta": {
-    "filename": "MotorJST.kicad_prl",
+    "filename": "8to4Stepper.kicad_prl",
     "version": 2
   },
   "project": {
