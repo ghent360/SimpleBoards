@@ -209,7 +209,7 @@
     (uuid "cceeaddb-836d-4919-86f7-98e8f337fe68")
     (property "Reference" "J1" (id 0) (at 132.8674 79.9908 0))
     (property "Value" "Conn_01x06_Male" (id 1) (at 132.8674 82.2895 0))
-    (property "Footprint" "Connector_JST:JST_EH_S6B-EH_1x06_P2.50mm_Horizontal" (id 2) (at 130.175 89.535 0)
+    (property "Footprint" "Connector_JST:JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal" (id 2) (at 130.175 89.535 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 130.175 89.535 0)
@@ -240,7 +240,7 @@
 
   (symbol_instances
     (path "/cceeaddb-836d-4919-86f7-98e8f337fe68"
-      (reference "J1") (unit 1) (value "Conn_01x06_Male") (footprint "Connector_JST:JST_EH_S6B-EH_1x06_P2.50mm_Horizontal")
+      (reference "J1") (unit 1) (value "Conn_01x06_Male") (footprint "Connector_JST:JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal")
     )
     (path "/0244a09e-517d-420f-88b3-4bbd7b3dfeab"
       (reference "J2") (unit 1) (value "Conn_01x06") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
