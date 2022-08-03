@@ -1,5 +1,6 @@
 {
   "board": {
+    "3dviewports": [],
     "design_settings": {
       "defaults": {
         "board_outline_line_width": 0.09999999999999999,
@@ -55,13 +56,18 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|150999999|72000001|5ef07ae5-7241-4d31-9b19-e72e5a094c4c|cde9cd0d-0a69-4b8b-86f0-d7b75481f134",
+        "courtyards_overlap|155167499|103000001|4107d40a-e5df-4255-aacc-13f9928e090c|c1c799a0-3c93-493a-9ad7-8a0561bc69ee",
+        "courtyards_overlap|155167499|85000001|5ef07ae5-7241-4d31-9b19-e72e5a094c4c|c1c799a0-3c93-493a-9ad7-8a0561bc69ee"
+      ],
       "meta": {
         "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
         "clearance": "error",
+        "connection_width": "ignore",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
@@ -74,6 +80,7 @@
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
+        "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
@@ -85,9 +92,11 @@
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "npth_inside_courtyard": "ignore",
+        "overlapping_pads": "warning",
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
+        "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -103,7 +112,6 @@
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
-        "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
       "rules": {
@@ -111,6 +119,7 @@
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.2032,
+        "min_connection": 0.0,
         "min_copper_edge_clearance": 0.2032,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
