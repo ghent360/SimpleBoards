@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "ESD")(type "KiCad")(uri "${KIPRJMOD}/ESD.kicad_sym")(options "")(descr ""))
+  (lib (name "Teensy41")(type "KiCad")(uri "${KIPRJMOD}/Teensy41.kicad_sym")(options "")(descr ""))
+)
