@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 915)
+    (start_pass_no 1302)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
@@ -133,8 +133,8 @@
     /SCL1 /SDA1 /SCL2 /SDA2 "/~{CS_IMU}" "/~{CS_BMP}" "/ONE_W" /TX1
     /RX1 /TX2 /RX2 /TX3 /RX3 /TX4 /RX4 /TX5
     /RX5 /TX6 /RX6 /EXT1 /EXT2 /EXT3 /EXT4 /EXT5
-    /EXT6 /EXT7 /EXT8 "unconnected-(J14-Pin_11)" "unconnected-(J14-Pin_12)" /MISO1 /SCK1 /MOSI1
-    "/CAN1_RX" "/CAN1_TX" "/CAN1_SB" "/CAN2_SB" "/CAN2_TX" "/CAN2_RX"
+    /EXT6 /EXT7 "unconnected-(J14-Pin_11)" "unconnected-(J14-Pin_12)" /MISO1 /SCK1 /MOSI1 "/CAN1_RX"
+    "/CAN1_TX" "/CAN1_SB" "/CAN2_SB" "/CAN2_TX" "/CAN2_RX" "Net-(C16-Pad1)" "/V_MON" "unconnected-(J14-Pin_10)"
     (clearance_class default)
     (via_rule default)
     (rule
