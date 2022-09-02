@@ -3814,7 +3814,7 @@
     (property "Datasheet" "~" (id 3) (at 101.854 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLC Part #" "C23162" (id 4) (at 101.854 143.51 0)
+    (property "JLC Part #" "C23254" (id 4) (at 101.854 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1f4e31a5-f60a-4ac3-863a-e0174ca90245))
@@ -4142,7 +4142,7 @@
     (property "Datasheet" "~" (id 3) (at 101.854 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLC Part #" "C4190" (id 4) (at 101.854 152.4 0)
+    (property "JLC Part #" "C31850" (id 4) (at 101.854 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 02e137a3-8d53-40a2-83e2-0431027f9425))
@@ -5597,9 +5597,6 @@
     (path "/4b94758e-9f48-4fc7-94d6-49a959fecae4"
       (reference "#PWR0129") (unit 1) (value "GND") (footprint "")
     )
-    (path "/43ae1265-c08d-4918-8c02-5519d0be2e44"
-      (reference "#PWR0130") (unit 1) (value "GND") (footprint "")
-    )
     (path "/aafc1360-2840-4378-8ce4-48f6f5898fa6"
       (reference "#PWR0130") (unit 1) (value "GND") (footprint "")
     )
@@ -5608,6 +5605,9 @@
     )
     (path "/bbc87c29-9016-4214-8cd4-0548038b0245"
       (reference "#PWR0132") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/43ae1265-c08d-4918-8c02-5519d0be2e44"
+      (reference "#PWR0133") (unit 1) (value "GND") (footprint "")
     )
     (path "/f786820a-c169-498f-ab00-951d998b096a"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -5769,10 +5769,10 @@
       (reference "R5") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/3e60e271-a6ba-4e4b-bcd7-ceef2391dbae"
-      (reference "R6") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R6") (unit 1) (value "82k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/5f08a27d-840c-4511-bcc0-86da6dff80bc"
-      (reference "R7") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R7") (unit 1) (value "22k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/ad100dc4-8615-423e-8189-f8de466e7713"
       (reference "R8") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
