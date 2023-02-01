@@ -58,6 +58,11 @@
           "gap": 0.127,
           "via_gap": 0.0,
           "width": 0.127
+        },
+        {
+          "gap": 0.2032,
+          "via_gap": 0.0,
+          "width": 0.2032
         }
       ],
       "drc_exclusions": [
@@ -73,12 +78,15 @@
         "shorting_items|67100000|70884000|2363a819-8e61-4f56-9f24-8a5f957a4347|d7da5241-df09-4b61-b595-714be10a668a",
         "shorting_items|72000000|70884000|47c3af5d-c383-407b-8e65-41db0a6eba6c|b34cc15d-16ed-4f1c-9823-7455d945220c",
         "shorting_items|72800000|70884000|66cb0c5d-1a46-471d-919a-da25356dd7d5|607c28c0-7b04-4342-a55e-a1d2fe5b9c5f",
+        "silk_overlap|61360164|111064500|2e346f1e-952f-40fa-9993-fe8159d132dc|7729c3ec-7b2e-4086-85e4-21659943edac",
+        "silk_overlap|61601000|111064500|0805ea86-7386-4333-a2a1-e707477022f2|7729c3ec-7b2e-4086-85e4-21659943edac",
         "silk_overlap|67499974|119594000|2999ce8d-de3a-408a-8fc0-c7df7d063b63|269ff512-13c9-41e2-9bf2-dc21c9b58cae",
         "silk_overlap|68719974|119594000|f9d9da63-c7be-4279-a258-bbb80e1a813d|2999ce8d-de3a-408a-8fc0-c7df7d063b63",
         "silk_overlap|69789974|119471500|277cbe51-8a47-4b97-98d5-a36a2bba1b9b|2999ce8d-de3a-408a-8fc0-c7df7d063b63",
         "silk_overlap|70109974|119551500|3da7412b-e09a-4b99-8654-45d2d001281a|2999ce8d-de3a-408a-8fc0-c7df7d063b63",
         "silk_overlap|70109974|119551500|5bbc54ab-8c71-4929-9c56-10f6f70452b5|2999ce8d-de3a-408a-8fc0-c7df7d063b63",
         "silk_overlap|70429974|119471500|7b6df884-51b6-46c7-89ec-fa463c932839|2999ce8d-de3a-408a-8fc0-c7df7d063b63",
+        "silk_overlap|72282164|110977000|27e32155-5824-408b-b6e8-652dd4b9e729|9d313c8b-4154-402a-b2c8-ec8ca9d2da89",
         "silk_overlap|72289974|119471500|a8af8f7e-38b8-415d-8fbb-9f8d7a545d97|2999ce8d-de3a-408a-8fc0-c7df7d063b63",
         "silk_overlap|72609974|119551500|35ed3b11-a95f-407c-8e46-22092108fac8|2999ce8d-de3a-408a-8fc0-c7df7d063b63",
         "silk_overlap|72609974|119551500|3eddf477-e967-4fb0-aacf-13cda4a335f5|2999ce8d-de3a-408a-8fc0-c7df7d063b63",
@@ -441,13 +449,14 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
-      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
